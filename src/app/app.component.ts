@@ -25,10 +25,11 @@ function isDigraphMode(mode: Mode) {
 // - ai
 // - oi etc
 // - yo
+// - wo, wu, wO, wU
 
 // todo one-letter mappings
 // - I -> i
-// - i -> Ni ? (also I -> i -> Ni ? yeah, should hard-code that, don't add the complexity of recursive mappings)
+// - <space>i -> Ni? (also <space>I?)
 
 // todo trailing commas
 const DIGRAPHS = {
