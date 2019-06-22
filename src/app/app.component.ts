@@ -38,7 +38,6 @@ const DIGRAPHS = {
   sh: "S",
   th: "T",
 
-  // c
   ch: "c",
 
   // wV and yV
@@ -51,8 +50,8 @@ const DIGRAPHS = {
   wo: "?", // todo
   wu: "?", // todo
 
-  // au
   au: "@",
+  ai: "Å",
 
   // yu
   yu: "U"
