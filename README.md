@@ -7,6 +7,7 @@ dimensions:
 - ascenders and descenders = 3px (up to the row with a)
 - midline: the line between test drive and map
 - left side: leave the leftmost column blank (except for e & E)
+    - TODO actually prob move e & E to the right like everything else, this sort of thing should be accomplished with kerning
 - m should be a square
 - TODO /au/ width
 - TODO semicolon (& colon) design
