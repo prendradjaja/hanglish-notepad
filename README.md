@@ -1,6 +1,6 @@
 # Hanglish notepad
 
-Font editor: http://www.pentacom.jp/pentacom/bitfontmaker2/editfont.php
+Font editor: http://www.pentacom.jp/pentacom/bitfontmaker2
 
 dimensions:
 - top line (not ascenders) = the row with $
