@@ -1,0 +1,38 @@
+$textarea-width: 800px;
+
+// adapted from http://www.webdevbreak.com/episodes/zen-textarea-pure-css
+.zen {
+  position: relative;
+  .zen-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  textarea {
+    font-family: hanglish;
+    height: 100%;
+    font-size: 48px;
+    line-height: 1.25em;
+    box-sizing: border-box;
+    padding: 20px calc(50% - #{$textarea-width} / 2);
+    background-color: white;
+    resize: none;
+    border-radius: 0;
+    outline: none;
+    width: 100%;
+    border: 0;
+  }
+
+  .mode-indicator {
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    height: 20px;
+    background: #cccccc;
+    padding: 2px 6px;
+  }
+}
