@@ -23,7 +23,7 @@ function isDigraphMode(mode: Mode) {
 
 // todo font: (& then make sure app supports it too)
 // - ai
-// - oi etc
+// - oa ue oi etc
 // - yo
 // - wo, wu, wO, wU
 
