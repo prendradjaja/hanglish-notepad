@@ -26,6 +26,10 @@ function isDigraphMode(mode: Mode) {
 // - oi etc
 // - yo
 
+// todo one-letter mappings
+// - I -> i
+// - i -> Ni ? (also I -> i -> Ni ? yeah, should hard-code that, don't add the complexity of recursive mappings)
+
 // todo trailing commas
 const DIGRAPHS = {
   // true digraphs
@@ -47,7 +51,10 @@ const DIGRAPHS = {
   wu: "?", // todo
 
   // au
-  au: "@"
+  au: "@",
+
+  // yu
+  yu: "U"
 };
 const DIGRAPH_FIRSTS = makeDigraphFirsts(DIGRAPHS);
 
